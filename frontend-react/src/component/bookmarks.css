@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #bookmark-heading {
+    font-size: 24px;
+    color: #00315f;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #bookmark-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .bookmark-item {
+    position: relative;
+    align-items: center;
+    max-width: 600px; 
+    margin: 5px auto; 
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+  }
+  
+  .bookmark-title {
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .bookmark-link {
+    margin-right: 45px;
+    color: #1e90ff;
+    text-decoration: none;
+    word-break: break-word;
+  }
+  
+  .bookmark-link:hover {
+    text-decoration: underline;
+  }
+  .bookmark-icon {
+    color: rgb(255, 19, 19); 
+    font-weight: bold; 
+    font-size: 20px; 
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    position: absolute; 
+    top: 50%; 
+    right: 10px;
+    transform: translateY(-50%); 
+  }
+
+  .bookmark-add {
+    position: relative;
+    align-items: center;
+    max-width: 600px; 
+    margin: 5px auto; 
+    padding: 5px 10px; 
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #ddd; 
+    background-color: #ffffff;
+    gap: 10px; 
+  }
+  
+  .bookmark-input {
+    flex: 1; 
+    padding: 5px 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; /* Consistent border radius */
+    font-size: 14px;
+  }
+  
+  .bookmark-input:focus {
+    outline: none;
+    border-color: #00315f; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  .bookmark-button {
+    background-color: #00315f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px; /* Same border radius */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bookmark-button:hover {
+    background-color: #004b91;
+  }
+  
