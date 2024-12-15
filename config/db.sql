@@ -10,6 +10,3 @@ CREATE TABLE bookmarks(
 INSERT INTO bookmarks(title, link, date_added) VALUES ('React.js', 'https://react.dev', NOW());
 INSERT INTO bookmarks(title, link, date_added) VALUES ('Docker', 'https://docker.com', NOW());
 INSERT INTO bookmarks(title, link, date_added) VALUES ('GitHub', 'https://github.com', NOW());
-ALTER TABLE bookmarks ADD user_id INT NOT NULL;
-UPDATE bookmarks SET user_id = 1 WHERE user_id = 0;
-ALTER TABLE bookmarks ADD FOREIGN KEY (user_id) REFERENCES users(id);

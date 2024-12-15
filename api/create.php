@@ -1,6 +1,6 @@
 <?php
-header("Access-Control-Allow-Origin: *"); // Allow React app
-header("Access-Control-Allow-Methods: POST"); // Allow POST and preflight OPTIONS
+header("Access-Control-Allow-Origin: *"); 
+header("Access-Control-Allow-Methods: POST"); 
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 header('Content-Type: Application/json');
 
