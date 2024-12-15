@@ -11,4 +11,4 @@
 ![Screenshot (130)](https://github.com/user-attachments/assets/5fd0aa1b-7a1c-4942-8a64-d2715bec50d9)
 
 ## Deleting React using an icon
-![Screenshot (130)](https://github.com/user-attachments/assets/8ff5f801-64e5-4cf2-8b05-802332e47fd3)
+<img src="https://github.com/user-attachments/assets/8ff5f801-64e5-4cf2-8b05-802332e47fd3" alt="Screenshot (130)" width="500">
